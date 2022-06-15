@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+*:not(textarea) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+    vertical-align: middle
+}
+body {
+    position: relative;
+    float: left;
+    overflow-x: hidden;
+    width: 100%;
+    font: 400 12px/1.6 "Poppins", sans-serif;
+    letter-spacing: 0.4px;
+    color: #333;
+    background: #f7f7f7;
+}
+main {
+    position: relative;
+    float: left;
+    width: 100%
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}

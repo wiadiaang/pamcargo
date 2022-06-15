@@ -1,0 +1,126 @@
+.home {
+    min-height: 200px;
+    margin-top: 58px;
+    -webkit-box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+.about {
+    min-height: 200px;
+    margin-top: 58px;
+    -webkit-box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 70px 0 !important;
+}
+
+.part-1 {
+    padding: 25px;
+}
+
+.f-page {
+    padding: 0 100px;
+}
+
+.f-page h1 {
+    margin-bottom: 30px;
+}
+
+.f-page h3 {
+    color: #0B0E0E;
+    margin-top: 25px;
+}
+
+.f-page input {
+    margin-bottom: 17px;
+}
+
+.btn-primary {
+    margin: 17px 0;
+}
+
+.block-wp.about {
+    width: 250px;
+    height: 250px;
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to top, #123569, #1e3367, #263065, #2e2e63, #342b60);
+    margin: 0;
+}
+
+.block-wp.sas_bg {
+    width: 250px;
+    height: 250px;
+    display: block;
+    position: relative;
+    background-color: #0084c9;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.services-img {
+    width: 350px;
+    position: relative;
+    display: block;
+    margin: 10px 0 10px;
+}
+
+.services-img img {
+    width: 100%;
+}
+
+.text-area {
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+
+.block-wp-2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block-wp-2 img {
+    width: 100%;
+}
+
+.btn-o {
+    width: 100%;
+    background-color: #2A3F54;
+    color: white;
+    margin: 50px 0 !important;
+}
+
+.btn-o:hover {
+    color: #eee !important;
+}
+
+h1.highlight {
+    color: black;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .f-page {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .block-page {
+        min-height: 400px;
+        box-shadow: 3px -2px 25px -12px rgba(0, 0, 0, 0.75);
+        padding: 25px;
+        margin: 50px 0;
+    }
+}

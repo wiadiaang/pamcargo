@@ -1,0 +1,584 @@
+* {
+    box-sizing: border-box;
+    outline: none
+}
+#binForm {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100%
+}
+#binForm .one {
+    width: 100% !important
+}
+#binForm .two {
+    width: calc(50% - 5px) !important
+}
+#binForm .three {
+    width: calc(33.3% - 5px) !important
+}
+#binForm .four {
+    width: calc(25% - 5px) !important
+}
+#binForm .four-one {
+    width: calc(75% - 5px) !important
+}
+#binForm .content {
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.18);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+#binForm .content h3 {
+    position: relative;
+    float: left;
+    margin: 10px 0 30px 0;
+    width: 100%;
+    font: 600 22px/1 "Poppins";
+    /* text-transform: uppercase; */
+    text-align: left;
+}
+#binForm .content form {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#binForm form .block {
+    position: relative;
+    float: left;
+}
+#binForm form .block .group {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 10px 10px 5px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#binForm form .block .group .groupTitle {
+    position: relative;
+    float: left;
+    margin: -10px -10px 20px -10px;
+    padding: 12px 15px;
+    width: calc(100% + 20px);
+    font: 500 14px/1 "Poppins";
+    background: #f2f2f2;
+    border-right: 20px solid #e5e5e5;
+    border-bottom: 1px solid #ccc;
+    color: black;
+}
+#binForm form .block .group .groupTitle i {
+    padding-left: 6px;
+    font: normal 300 10px/1 "Poppins";
+    letter-spacing: 0.6px;
+}
+#binForm form .tagline {
+    position: relative;
+    float: left;
+    padding: 5px 0 15px 0;
+    margin-bottom: 15px;
+    width: 100%;
+    font: 400 16px/1 "Poppins";
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid #f2f2f2;
+}
+#binForm .obj {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%
+}
+#binForm .obj label {
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    min-height: 10px;
+    width: 100%;
+    font: 600 10px/1 "Poppins";
+}
+#binForm .obj .label-left {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+    width: 30%;
+    height: 36px;
+    font: 600 10px/1 "Poppins";
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+#binForm .obj input,
+#binForm .obj select,
+#binForm .obj textarea {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    width: 100%;
+    height: 36px;
+    font: 400 12px/1 "Poppins";
+    letter-spacing: 0.6px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px
+}
+#binForm .obj textarea {
+    padding: 15px;
+    height: 100px;
+    line-height: 1.5;
+    resize: none
+}
+#binForm .obj input:disabled,
+#binForm .obj select:disabled,
+#binForm .obj textarea:disabled {
+    background: #f2f2f2
+}
+#binForm .obj .radio {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    min-height: 36px;
+    font: 400 12px/1.36 "Poppins";
+    letter-spacing: 0.6px;
+    text-transform: lowercase;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid #3ba4b8;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#binForm .obj input[type="radio"] {
+    display: none
+}
+#binForm .obj input[type="radio"]:checked + label {
+    color: #fff;
+    background: #3ba4b8;
+    border-color: #3ba4b8
+}
+#binForm .obj .with-label-left {
+    width: 70%;
+    border-radius: 0 3px 3px 0;
+    border-width: 1px 1px 1px 0;
+}
+#binForm .obj .desc {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    font: 400 10px/1.6 "Poppins";
+    letter-spacing: 0.6px;
+    color: #4d4d4d;
+}
+#binForm button[type="submit"] {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 42px;
+    font: 600 14px/1 "Poppins";
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #5bb65e;
+    border-right: 20px solid #51a454;
+    border-radius: 3px;
+}
+#binForm table {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font: 400 12px/1.4 "Poppins";
+    letter-spacing: 0.4px;
+    border-collapse: collapse;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+#binForm table .grey {
+    background: #ededed;
+}
+#binForm table th,
+#binForm table td {
+    padding: 0 10px;
+    height: 26px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+}
+#binForm table .highTd td {
+    height: 300px !important
+}
+#binForm table .noBorder td {
+    border: none !important
+}
+#binForm table .restricted {
+    padding: 0;
+    width: 60px;
+}
+#binForm table .restricted2 {
+    padding: 0; 
+    width: 120px
+}
+#binForm table td span {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#binForm table th {
+    padding: 8px 8px;
+    font: 600 12px/1.4 "Poppins";
+    letter-spacing: 0.6px;
+    background: #f7f7f7;
+}
+#binForm table .small th {
+    padding: 6px 8px;
+    font: 500 10px/1.4 "Poppins";
+}
+#binForm table td input {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    width: 100%;
+    height: 100%;
+    font: 400 10px/1 "Poppins";
+    letter-spacing: 0.4px;
+    text-align: center;
+    background: #fdf6b7;
+    box-sizing: border-box;
+}
+#binForm table td textarea {
+    position: relative;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    height: 103px;
+    font: 400 10px/1 "Poppins";
+    letter-spacing: 0.4px;
+    outline: none;
+    border: none;
+    resize: none;
+    box-sizing: border-box
+}
+#binForm table td select {
+    position: relative;
+    float: left;
+    padding: 0 6px;
+    width: 100%;
+    height: 100%;
+    font: 400 10px/1 "Poppins";
+    letter-spacing: 0.4px;
+    text-align: center;
+    background: #fdf6b7;
+    box-sizing: border-box;
+}
+
+.seaPart {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 15px 0 15px 15px;
+    width: 100%
+}
+.seaPart img {
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    object-fit: scale-down;
+    object-position: 50% 50%
+}
+.seaPart .logoTitle {
+    position: relative;
+    float: left;
+    margin: 20px 0 50px 0;
+    width: 100%;
+    font: 700 18px/1 "Poppins";
+    text-align: center
+}
+.seaPart .description {
+    position: relative;
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+    font: 400 10px/1.5 "Poppins";
+    letter-spacing: 0.6px;
+}
+.seaPart .description span {
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    font: 600 12px/1 "Poppins";
+}
+.switch {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    z-index: 100;
+}
+.switch li {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    width: 33.3%;
+    font: 500 12px/1 "Poppins";
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #999;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.switch li:first-child {
+    border-radius: 3px 0 0 3px
+}
+.switch li:last-child {
+    border-radius: 0 3px 3px 0
+}
+.switch .clicked {
+    color: #fff;
+    background: #5d88af;
+}
+.tab {
+    display: none;
+    position: absolute
+}
+.opened {
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    width: 100%
+}
+.send-wrap {
+    margin: 10px 0;
+}
+.send-wrap textarea {
+    padding: 10px;
+    resize: none;
+    height: 100px;
+    border-radius: 3px;
+}
+.media.msg {
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+.media.msg .media-heading {
+    font: 600 12px/1 "Poppins"
+}
+.media.msg .media-heading + small {
+    font: 400 12px/1.7 "Poppins";
+    letter-spacing: 0.4px;
+}
+.msg-wrap {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    border-radius: 3px;
+}
+.conversation {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 0 3px 3px 0;
+}
+.conversation .media-body .media-heading {
+    margin-bottom: 2px;
+    font: 600 14px/1 "Poppins";
+}
+.conversation .media-body small {
+    font: 400 12px/1 "Poppins" !important;
+    letter-spacing: 0.6px;
+}
+.switchChat .clickedChat {
+    color: #fff;
+    background: #5d88af;
+    border-color: #5d88af;
+}
+.message-wrap {
+    display: none
+}
+.openedChat {
+    display: block
+}
+.bin-group {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.bin-group a {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 42px;
+    font: 500 14px/1 "Poppins";
+    color: #fff;
+}
+.bin-group a i {
+    margin-right: 12px;
+}
+.bin-group .bin-left {
+    border-radius: 3px 0 0 3px;
+    background: #22d790;
+}
+.bin-group .bin-right {
+    border-radius: 0 3px 3px 0;
+    background: #26c281;
+}
+.bin-group .bin-left:hover,
+.bin-group .bin-right:hover {
+    color: #fff
+}
+.bin-content {
+    position: relative;
+    float: left;
+    width: 100%
+}
+.bin-content .bin-head {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #f2f2f2;
+}
+.bin-content .bin-head .input-group {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.bin-head .input-group label {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    font: 500 12px/1 "Poppins";
+}
+.bin-head .input-group input,
+.bin-head .input-group select {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 3px;
+    font: 400 12px/1 "Poppins";
+    letter-spacing: 0.4px;
+    border: 1px solid #ccc;
+}
+.bin-head .input-group .label-left {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 30px;
+    background: #f2f2f2;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #ccc;
+}
+.bin-head .input-group .label-left img {
+    opacity: 0.4;
+    position: relative;
+    float: left;
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: 50% 50%;
+}
+.bin-head .input-group .with-label-left {
+    border-width: 1px 0 1px 1px;
+    border-radius: 3px 0 0 3px
+}
+.bin-content .list {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+.bin-content .list .item {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    width: 160px;
+    background: #f2f2f2;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+.bin-content .list .item .icon {
+    position: relative;
+    float: left;
+    padding: 25px;
+    width: 100%;
+    height: 100px;
+    object-fit: scale-down;
+    object-position: 50% 50%;
+    background: #fff;
+    box-sizing: border-box
+}
+.bin-content .list .item .filename {
+    position: relative;
+    float: left;
+    padding: 8px;
+    width: 100%;
+    font: 500 12px/1 "Poppins";
+    text-align: center;
+}
+
+/* Responsive -------------------------------- */

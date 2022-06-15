@@ -1,0 +1,231 @@
+#myFooter {
+  background-color: #373a48;
+  color: white;
+}
+
+#myFooter .footer-copyright {
+  background-color: #383737;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #ccc;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+#myFooter .social-networks a {
+  font-size: 32px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+  text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .google:hover {
+  color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+#myFooter .linkedin:hover {
+  color: #007BB6;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+}
+
+our-mission {
+  margin-left: 10px;
+}
+
+
+
+.no-results {
+  text-align: center;
+  color: white;
+  height: 200px;
+  background-image: linear-gradient(to top, #123569, #1e3367, #263065, #2e2e63, #342b60);
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.box-contact {
+  height: 200px;
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.ntah {
+  border-radius: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.body-contact {
+  min-height: 500px;
+  margin: 20px;
+}
+
+.container-fluid.item-contact {
+  min-height: 500px;
+}
+
+.body-item-contact, .body-item-schedule {
+  min-height: 520px;
+  background-color: #eeeeee;
+  /*margin-top: 15px;*/
+  padding-top: 20px;
+}
+
+.box-item-contact {
+  width: 80%;
+  background-color: black;
+  min-height: 400px;
+  text-align: center;
+}
+
+.box-long {
+  /* min-height: 626px; */
+  /*background-color: black;*/
+  background-image: linear-gradient(to bottom, #051937, #00304d, #004757, #005d54, #35714a);
+  /*padding-top: 20px;*/
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.row.contact-us-title {
+  color: white;
+  text-align: center;
+}
+
+.btn-contactus-form {
+  background-image: linear-gradient(to left bottom, #265daa, #3258aa, #3e52a8, #4a4ca6, #5545a3);
+  outline: 0;
+}
+
+.btn-contactus-form:focus {
+  outline: 0;
+}
+
+.button {
+  outline: 0;
+}
+
+.scheduler-header {
+  text-align: center;
+  color: white;
+  height: 200px;
+  background-image: linear-gradient(to top, #123569, #1e3367, #263065, #2e2e63, #342b60);
+}
+
+.container.schedule-box {
+  width: 80%;
+  min-height: 500px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.schedule-box-items {
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+  min-height: 430px;
+}
+
+.schedule-text-header {
+  color: rgb(87,200,85);
+  padding-top: 20px;
+}
+
+.card-body.box-3 {
+  padding-right: 10px;
+}
+
+.col-md-12.col-lg-4.col-xl-4.kita2 {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content-schedule {
+  width: 100%;
+  min-height: 400px;
+  background-color: red;
+  /*margin: 5px;*/
+  padding: 10px;
+}
+
+.col-md-4.col-lg-4.text-center.mungkin {
+  right: 50%;
+  transform: translateY(-50%);
+}
+
+.col.content-schedule.a {
+  border-color: green;
+  border-radius: 10px;
+}
+
+.send-request-btn {
+  width: 100%;
+border-radius: 5px;
+color: white;
+background-color: rgb(68,64,222);
+outline: none;
+border: none;
+height: 45px;
+}
+
+.send-request-btn:hover {
+  background-color: rgb(88,84,227);
+}
